@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home";
-import AllProduct from "../Pages/AllProduct";
+import Product from "../Pages/Product";
 import ProductDetails from "../Pages/ProductDetails";
 import Login from "../Pages/Login";
 import Registetion from "../Pages/Registetion";
@@ -9,6 +9,8 @@ import PrivetRoute from "../Provider/PrivetRoute";
 import Profile from "../Pages/Profile";
 import ErrorPage from "../Pages/ErrorPage";
 import ForgetPassword from "../Pages/ForgetPassword";
+import About from "../Pages/About";
+import Contact from "../Pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +25,7 @@ const router = createBrowserRouter([
         path: '/allproduct',
         element: (
           <PrivetRoute>
-             <AllProduct></AllProduct>
+            <Product></Product>
           </PrivetRoute>
         )
       },
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
             <ProductDetails></ProductDetails>
           </PrivetRoute>
         )
+      },
+      {
+        path: 'about-us',
+        Component: About
+      },
+      {
+        path: 'contact-us',
+        Component: Contact
       },
       {
         path: '/profile',
@@ -55,7 +65,7 @@ const router = createBrowserRouter([
         path: "/forgetpassword",
         element: <ForgetPassword></ForgetPassword>
       },
-    
+
     ]
   },
   {

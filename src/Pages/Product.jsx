@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Card from '../Components/Card';
 
 
-const AllProduct = () => {
+const Product = () => {
     const [data, setdata] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -35,7 +35,7 @@ const AllProduct = () => {
         );
     }
     return (
-        <div className='container mx-auto'>
+        <div className=''>
 
             <div className='my-10'>
                 <h1 className='text-2xl font-bold'>All Toys</h1>
@@ -51,4 +51,4 @@ const AllProduct = () => {
     );
 };
 
-export default AllProduct;
+export default Product;
