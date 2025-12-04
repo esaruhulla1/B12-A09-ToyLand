@@ -9,9 +9,9 @@ const Card = ({ singleData }) => {
     return (
         <div className=''>
             
-            <div className="card bg-base-100  shadow-lg ">
+            <div className="card bg-base-100  shadow-lg">
                 <figure>
-                    <img className='w-[250px] h-[200px] '
+                    <img className='w-[140px] h-[190px] p-3'
                         src={pictureURL}
                         alt="img" />
                 </figure>
@@ -26,15 +26,15 @@ const Card = ({ singleData }) => {
 
                         </div>
                     </h2>
-                    <p className=''>{description.slice(0, 85)}</p>
-                    <div className='flex justify-between'>
+                    {/* <p className=''>{description.slice(0, 85)}</p> */}
+                    {/* <div className='flex justify-between'>
                         <div>
                             <span className='font-semibold text-[15px]'>Available Quantity: </span>
                             <span className='font-bold text-lg'>{availableQuantity}</span>
                         </div>
 
                         
-                    </div>
+                    </div> */}
 
                     <div className="card-actions justify-between">
                         <div className='text-2xl font-bold'>

@@ -11,6 +11,7 @@ import ErrorPage from "../Pages/ErrorPage";
 import ForgetPassword from "../Pages/ForgetPassword";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
+import About2 from "../Pages/About2";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,7 @@ const router = createBrowserRouter([
       {
         path: 'about-us',
         Component: About
+        // Component: About2
       },
       {
         path: 'contact-us',

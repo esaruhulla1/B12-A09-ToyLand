@@ -48,9 +48,9 @@ const Profile = () => {
   }
 
   return (
-    <div className="bg-linear-to-b from-white to-[#f8f8f8] w-screen min-h-screen bg-white flex flex-col items-center pt-12 p-6">
+    <div className="  min-h-screen  flex flex-col items-center pt-12 p-6">
       {/* Main Container */}
-      <div className="w-full max-w-5xl bg-gray-50 rounded-3xl shadow-2xl p-10 flex flex-col md:flex-row md:space-x-12">
+      <div className="w-full max-w-5xl rounded-3xl  p-10 flex flex-col md:flex-row md:space-x-12">
 
         {/* Left Side - Profile Info */}
         <div className="flex flex-col items-center md:items-start md:w-1/2 space-y-4">
