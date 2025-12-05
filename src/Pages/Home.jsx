@@ -4,6 +4,7 @@ import PopulerToys from '../Components/Home/PopulerToys';
 import CustomerReview from '../Components/Home/CustomerReview';
 import WhyChooseUS from '../Components/Home/WhyChooseUS';
 import Status from '../Components/Home/Status';
+import TopProduct from '../Components/Home/TopProduct';
 
 
 const Home = () => {
@@ -16,7 +17,8 @@ const Home = () => {
 
             <Slider></Slider>
             <PopulerToys></PopulerToys>
-            <CustomerReview></CustomerReview>
+            <TopProduct></TopProduct>
+            {/* <CustomerReview></CustomerReview> */}
             <WhyChooseUS></WhyChooseUS>
             <Status></Status>
 
